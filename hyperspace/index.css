@@ -1,0 +1,367 @@
+*{
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+}
+#nav{
+/* border: 2px solid blue; */
+height: 55px;
+}
+#sub-navleft ol{
+/* border: 2px solid black; */
+list-style: none;
+display: flex;
+width: 33%;
+margin-left: 5px;
+margin-top: 15px;
+font-size: 20px;
+color: rgb(110, 106, 106);
+}
+#sub-navright ol{
+  list-style: none;
+    /* border: 2px solid yellow; */
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-top: -14px;
+    margin-left: 1160px;
+    width: 25%;
+    justify-content: space-around;
+    height: inherit;
+}
+#aside{
+    border: 2px solid blue;
+    height: 3700px;
+    width: 20%;
+    position: absolute;
+    top: 69px;
+    line-height: 1.5em;
+    background-color:#312450;
+    background-image: fixed;
+}
+aside ol{
+    margin-top: 200px;
+    margin-left:50% ;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: azure;
+}
+#section1{
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin-left: 20%;
+    height: 600px;
+    background-color: #5e42a6;;
+    color: white;
+    margin-top: -200px;
+}
+#h1{
+   /* color: brown; */
+   margin-top: 200px;
+   margin-left: 55px;
+   font-size: 45px;
+   position:relative;
+   top: 190px;
+}
+#h4{
+    position: relative;
+    top: 200px;
+    margin-left: 55px;
+    font-size: 20px;
+ }
+ #h4 a{
+    color: white;
+ }
+ #h5 a{
+    color: white;
+ }
+ #h5{
+    position: relative;
+    top: 200px;
+    margin-left: 55px;
+    font-size: 20px;
+ }
+ #section1 button{
+  /* border: 2px solid blue; */
+   position: absolute;
+   top: 480px;
+   left: 400px;
+   height: 40px;
+   width: 120px;
+   background: transparent;
+   color: #fff;
+ }
+ #section2 img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 304px;
+ }
+ #aside1{
+    border: 2px solid aliceblue;
+    background-color: rgba(48, 36, 80, 0.9);
+    height: 400px;
+
+ }
+ #section2 h1{
+    position: relative;
+    left: 770px;
+    top: -300px;
+    font-size: 35px;
+    color: aliceblue;
+ }
+ #section2 h4{
+    position: relative;
+    left: 770px;
+    top: -290px;
+    font-size: 18px;
+    color: azure;
+ }
+ #section2 button{
+  border: 2px solid #fff;
+   position: absolute;
+   top: 900px;
+   left: 780px;
+   height: 40px;
+   width: 150px;
+   background: transparent;
+   color: #fff;
+ }
+
+ #aside2{
+    border: 1px solid aliceblue;
+    background-color: rgba(43, 36, 80, 0.9);;
+    height: 400px;
+
+ }
+ #section3 img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 304px;
+ }
+ #section3 h1{
+    position: relative;
+    left: 770px;
+    top: -300px;
+    font-size: 35px;
+    color: aliceblue;
+ }
+ #section3 h4{
+    position: relative;
+    left: 770px;
+    top: -290px;
+    font-size: 18px;
+    color: azure;
+ }
+ #section3 button{
+  border: 2px solid #fff;
+   position: absolute;
+   top: 1300px;
+   left: 780px;
+   height: 40px;
+   width: 150px;
+   background: transparent;
+   color: #fff;
+ }
+
+ #aside3{
+    border: 1px solid aliceblue;
+    background-color: rgba(40, 36, 80, 0.9);;
+    height: 400px;
+
+ }
+ #section4 h1{
+    position: relative;
+    left: 790px;
+    top: -300px;
+    font-size: 35px;
+    color: aliceblue;
+ }
+ #section4 img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 304px;
+ }
+ #section4 h4{
+    position: relative;
+    left: 790px;
+    top: -290px;
+    font-size: 18px;
+    color: azure;
+ }
+ #section4 button{
+  border: 2px solid #fff;
+   position: absolute;
+   top: 1700px;
+   left: 800px;
+   height: 40px;
+   width: 150px;
+   background: transparent;
+   color: #fff;
+ }
+ #section5{
+    border: 1px solid #ffffff;
+    background-color:rgb(166, 61, 78);
+    height: 1100px;
+ }
+ #section5 h1{
+   /* border: 2px solid green; */
+    position: relative;
+    left: 350px;
+    top: 60px;
+    font-size: 30px;
+    color:white;
+ }
+ #section5 p{
+   /* border: 2px solid green; */
+    position: relative;
+    left: 350px;
+    top: 90px;
+    font-size: 18px;
+    color:white;
+    line-height: 1.8em;
+ }
+ #section5 button{
+  /* border: 2px solid blue; */
+  position: relative;
+  top: -525px;
+  left: 400px;
+  height: 30px;
+  width: 130px;
+ }
+ #section6{
+   border: 2px solid white;
+   height: 700px;
+   margin-top: 120px;
+   margin-left: 380px;
+   margin-right: 80px;
+ }
+ #section6 aside{
+   position: relative;
+   top: 60px;
+   left: -250px;
+   width: 500px;
+  
+ }
+ #section6 span{
+   position: relative;
+   top: 30px;
+   left: 30px;
+ }
+ #section6 h1{
+   position: relative;
+   top: 10px;
+   left: 60px;
+   font-size: 28px;
+ }
+ #section6 p{
+   position: relative;
+   top: 10px;
+   left: 60px;
+ }
+ #aside6 span{
+   border: 2px solid white;
+   position: absolute;
+   top:-170px;
+   left: 600px;
+  
+ }
+ #aside6 h1{
+   position: relative;
+   top: -170px;
+   left: 650px;
+   font-size: 28px;
+ }
+ #aside6 p{
+   position: relative;
+   top: -170px;
+   left: 650px;
+ }
+ #aside7 span{
+   /* border: 2px solid white; */
+   position: relative;
+   top:-380px;
+   left: 450px;
+ }
+ #aside7 h1{
+   position: relative;
+   top: -400px;
+   left: 490px;
+   font-size: 25px;
+ }
+ #aside7 p{
+   position: relative;
+   top: -390px;
+   left: 490px;
+ }
+ #aside8 span{
+   /* border: 2px solid green; */
+   position: relative;
+   top:-540px;
+   left: 1000px;
+ }
+ #aside8 h1{
+   position: relative;
+   top: -560px;
+   left: 1050px;
+   font-size: 25px;
+ }
+ #aside8 p{
+   position: relative;
+   top: -550px;
+   left: 1050px;
+ }
+ #aside9 h1{
+   position: relative;
+   top: -480px;
+   left: 490px;
+   font-size: 25px;
+ }
+ #aside9 p{
+   position: relative;
+   top: -490px;
+   left: 490px;
+ }
+ #aside10 span{
+   /* border: 2px solid green; */
+   position: relative;
+   top:-640px;
+   left: 1000px;
+ }
+ #aside10 p{
+   position: relative;
+   top: -650px;
+   left: 1050px;
+ }
+ #aside10 h1{
+   position: relative;
+   top: -660px;
+   left: 1050px;
+   font-size: 25px;
+ }
+ #section7{
+  border: 2px solid blue;
+  height: 650px;
+  background-color: #5e42a6;
+ }
+ #aside11 h1{
+  /* border: 2px solid blue; */
+  position: relative;
+  top: 60px;
+  left:380px;
+  font-size: 30px;
+  color: #fff;
+}
+#aside11 p{
+  position: relative;
+  top: 90px;
+  left: 380px;
+  color: #fff;
+  font-size: 19px;
+  line-height: 1.7em;
+}
+
+ 
